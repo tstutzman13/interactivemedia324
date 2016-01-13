@@ -1,7 +1,8 @@
 
 /* Base */
 body{
-	background-image: url("assets/images/skateboard.jpg");
+	background-color: green;
+	background-image: url("images/strawberry.jpg");
 }
 
 
@@ -12,21 +13,27 @@ body{
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
-	body{ background-image: url("assets/images/skateboard.jpg"); }
+
+	body{ background-color: yellow; 
+		background-image: url("images/skateboard.jpg"); }
 }
 
 @media screen and (max-width: 768px) {
-	body{ background-image: url("assets/images/fail1.jpg"); }
+	body{ background-color: blue;
+		background-image: url("images/fail1.jpg"); }
 }
 
 @media screen and (max-width: 600px) {
-	body{ background-image: url("assets/images/twoheads.jpg"); }
+	body{ background-color: violet;
+		background-image: url("images/happy.jpg"); }
 }
 
 @media screen and (max-width: 480px) {
-	body{ background-image: url("assets/images/fail2.jpg"); }
+	body{ background-color: magenta;
+		background-image: url("images/fail2.jpg"); }
 }
 
 @media screen and (max-width: 320px) {
-	body{ background-image: url("assets/images/strawberry.jpg"); }
+	body{ background-color: red;
+		background-image: url("images/twoheads.jpg"); }
 }
