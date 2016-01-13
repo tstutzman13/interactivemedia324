@@ -1,7 +1,7 @@
 
 /* Base */
 body{
-	background-color: green;
+	background-image: url("assets/images/skateboard.jpg");
 }
 
 
@@ -12,19 +12,21 @@ body{
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
-
+	body{ background-image: url("assets/images/skateboard.jpg"); }
 }
 
 @media screen and (max-width: 768px) {
-	
+	body{ background-image: url("assets/images/fail1.jpg"); }
 }
 
 @media screen and (max-width: 600px) {
-	
+	body{ background-image: url("assets/images/twoheads.jpg"); }
 }
+
 @media screen and (max-width: 480px) {
-	
+	body{ background-image: url("assets/images/fail2.jpg"); }
 }
+
 @media screen and (max-width: 320px) {
-	
+	body{ background-image: url("assets/images/strawberry.jpg"); }
 }
