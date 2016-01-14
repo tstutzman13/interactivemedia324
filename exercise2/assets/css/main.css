@@ -1,6 +1,6 @@
 
 /* Base */
-body{
+body{font-size: 100px;
 	background-image: url("images/success.gif");
 }
 
@@ -13,21 +13,30 @@ body{
 
 @media screen and (max-width: 1024px) {
 
-	body{background-image: url("images/skateboard.jpg"); }
+	body{font-size: 80px;
+		background-image: url("images/skateboard.jpg"); }
 }
 
 @media screen and (max-width: 768px) {
-	body{ background-image: url("images/fail1.jpg"); }
+	body{ color: white;
+		font-size: 50px;
+		background-image: url("images/fail1.jpg"); }
 }
 
 @media screen and (max-width: 600px) {
-	body{ background-image: url("images/fail2.jpg"); }
+	body{ color: white; 
+		font-size: 40px;
+		background-image: url("images/fail2.jpg"); }
 }
 
 @media screen and (max-width: 480px) {
-	body{ background-image: url("images/happy.jpg"); }
+	body{ color: white; 
+		font-size: 30px;
+		background-image: url("images/happy.jpg"); }
 }
 
 @media screen and (max-width: 320px) {
-	body{ background-image: url("images/twoheads.jpg"); }
+	body{ color: white; 
+		font-size: 20px;
+		background-image: url("images/twoheads.jpg"); }
 }
