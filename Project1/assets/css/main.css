@@ -1,6 +1,13 @@
 
 /* Base */
 
+.desaturate{
+
+	filter: gray; /* IE */
+	filter: grayscale(1); /* Firefox */
+	-webkit-filter: grayscale(1); /* Chrome, Safari*/
+
+}
 
 
 
