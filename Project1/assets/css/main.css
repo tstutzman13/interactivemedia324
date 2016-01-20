@@ -9,28 +9,377 @@
 
 }
 
+.inline{
+	display: inline-block;
+	padding: 2%;
+}
 
+.home{
+	height: 1024px;
+	width: 1024px;
+}
 
+.menu{
 
+	position: absolute;
+	top: 30%;
+	left: 47%;
+}
+
+.verticle{
+	height: 900px;
+	width: 600px;
+}
+
+p{
+	font-size: 35px;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+}
+
+img{
+	height: 600px;
+	width: 900px;
+}
+
+body{
+	background: #003F87;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+}
 
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
 
+.desaturate{
+
+	filter: gray; /* IE */
+	filter: grayscale(1); /* Firefox */
+	-webkit-filter: grayscale(1); /* Chrome, Safari*/
+
+}
+
+.inline{
+	display: inline-block;
+	padding: 2%;
+}
+
+.home{
+	height: 1024px;
+	width: 1024px;
+}
+
+.menu{
+
+	position: absolute;
+	top: 30%;
+	left: 47%;
+}
+
+.verticle{
+	height: 900px;
+	width: 600px;
+}
+
+p{
+	font-size: 30px;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+}
+
+img{
+	height: 600px;
+	width: 900px;
+}
+
+body{
+	background: #003F87;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+}
+
+@media screen and (max-width: 840px) {
+
+.desaturate{
+
+	filter: gray; /* IE */
+	filter: grayscale(1); /* Firefox */
+	-webkit-filter: grayscale(1); /* Chrome, Safari*/
+
+}
+
+.inline{
+	display: inline-block;
+	padding: 2%;
+}
+
+.home{
+	height: 830px;
+	width: 830px;
+}
+
+.menu{
+
+	position: absolute;
+	top: 30%;
+	left: 47%;
+}
+
+.verticle{
+	height: 750px;
+	width: 500px;
+}
+
+p{
+	font-size: 30px;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+}
+
+img{
+	height: 500px;
+	width: 750px;
+}
+
+body{
+	background: #003F87;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+}
+
 }
 
 @media screen and (max-width: 768px) {
+
+.desaturate{
+
+	filter: gray; /* IE */
+	filter: grayscale(1); /* Firefox */
+	-webkit-filter: grayscale(1); /* Chrome, Safari*/
+
+}
+
+.inline{
+	display: inline-block;
+	padding: 2%;
+}
+
+.home{
+	height: 768px;
+	width: 768px;
+}
+
+.menu{
+
+	position: absolute;
+	top: 20%;
+	left: 44%;
+}
+
+.verticle{
+	height: 600px;
+	width: 400px;
+}
+
+p{
+	font-size: 25px;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+}
+
+img{
+	height: 400px;
+	width: 600px;
+}
+
+body{
+	background: #003F87;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+}
 
 }
 
 @media screen and (max-width: 600px) {
 
+.desaturate{
+
+	filter: gray; /* IE */
+	filter: grayscale(1); /* Firefox */
+	-webkit-filter: grayscale(1); /* Chrome, Safari*/
+
+}
+
+.inline{
+	display: inline-block;
+	padding: 2%;
+}
+
+.home{
+	height: 600px;
+	width: 600px;
+}
+
+.menu{
+
+	position: absolute;
+	top: 15%;
+	left: 45%;
+}
+
+.verticle{
+	height: 500px;
+	width: 340px;
+}
+
+p{
+	font-size: 20px;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+}
+
+img{
+	height: 340px;
+	width: 500px;
+}
+
+body{
+	background: #003F87;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+}
+
 }
 
 @media screen and (max-width: 480px) {
 
+.desaturate{
+
+	filter: gray; /* IE */
+	filter: grayscale(1); /* Firefox */
+	-webkit-filter: grayscale(1); /* Chrome, Safari*/
+
+}
+
+.inline{
+	display: inline-block;
+	padding: 2%;
+}
+
+.home{
+	height: 480px;
+	width: 480px;
+}
+
+.menu{
+
+	position: absolute;
+	top: 10%;
+	left: 47%;
+}
+
+.verticle{
+	height: 340px;
+	width: 230px;
+}
+
+p{
+	font-size: 15px;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+}
+
+img{
+	height: 230px;
+	width: 340px;
+}
+
+
+
+body{
+	background: #003F87;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+}
+
 }
 
 @media screen and (max-width: 320px) {
+
+.desaturate{
+
+	filter: gray; /* IE */
+	filter: grayscale(1); /* Firefox */
+	-webkit-filter: grayscale(1); /* Chrome, Safari*/
+
+}
+
+.inline{
+	display: inline-block;
+	padding: 2%;
+}
+
+.home{
+	height: 320px;
+	width: 320px;
+}
+
+.menu{
+
+	position: absolute;
+	top: 5%;
+	left: 47%;
+}
+
+.verticle{
+	height: 120px;
+	width: 80px;
+}
+
+p{
+	font-size: 10px;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+}
+
+img{
+	height: 80px;
+	width: 120px;
+}
+
+body{
+	background: #003F87;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Arimo', sans-serif;
+}
 
 }
