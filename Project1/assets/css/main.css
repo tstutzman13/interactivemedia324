@@ -36,10 +36,18 @@
 	width: 100%;
 }
 
+.homeLink{
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	padding: 5%;
+}
+
+h1{
+	font-size: 5em;
+}
+
 p{
 	font-size: 1em;
-	font-family: 'Arimo', sans-serif;
-	color: white;
 }
 
 img{
@@ -49,13 +57,14 @@ img{
 
 body{
 	background: #b0c4de;
+	font-family: 'Arimo', sans-serif;
+	color: black;
 }
 
 a{
-	color: white;
+	color: black;
 	text-decoration: none;
-	font-family: 'Arimo', sans-serif;
-	font-size: 1em;
+
 }
 
 /* Media Queries */
@@ -97,11 +106,18 @@ a{
 	width: 100%;
 }
 
+.homeLink{
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	padding: 5%;
+}
+
+h1{
+	font-size: 5em;
+}
 
 p{
 	font-size: 1em;
-	font-family: 'Arimo', sans-serif;
-	color: white;
 }
 
 img{
@@ -111,13 +127,13 @@ img{
 
 body{
 	background: #b0c4de;
+	font-family: 'Arimo', sans-serif;
+	color: black;
 }
 
 a{
-	color: white;
+	color: black;
 	text-decoration: none;
-	font-family: 'Arimo', sans-serif;
-	font-size: 1em;
 }
 
 @media screen and (max-width: 840px) {
@@ -157,10 +173,18 @@ a{
 	width: 100%;
 }
 
+.homeLink{
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	padding: 5%;
+}
+
+h1{
+	font-size: 5em;
+}
+
 p{
 	font-size: 1em;
-	font-family: 'Arimo', sans-serif;
-	color: white;
 }
 
 img{
@@ -170,13 +194,13 @@ img{
 
 body{
 	background: #b0c4de;
+	font-family: 'Arimo', sans-serif;
+	color: black;
 }
 
 a{
-	color: white;
+	color: black;
 	text-decoration: none;
-	font-family: 'Arimo', sans-serif;
-	font-size: 1em;
 }
 
 }
@@ -218,10 +242,18 @@ a{
 	width: 400px;
 }
 
+.homeLink{
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	padding: 5%;
+}
+
+h1{
+	font-size: 5em;
+}
+
 p{
 	font-size: 1em;
-	font-family: 'Arimo', sans-serif;
-	color: white;
 }
 
 img{
@@ -231,14 +263,13 @@ img{
 
 body{
 	background: #b0c4de;
+	font-family: 'Arimo', sans-serif;
+	color: black;
 }
 
 a{
-	color: white;
+	color: black;
 	text-decoration: none;
-	font-family: 'Arimo', sans-serif;
-	font-size: 1em;
-}
 
 }
 
@@ -279,10 +310,18 @@ a{
 	width: 100%;
 }
 
+.homeLink{
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	padding: 5%;
+}
+
+h1{
+	font-size: 5em;
+}
+
 p{
 	font-size: 1em;
-	font-family: 'Arimo', sans-serif;
-	color: white;
 }
 
 img{
@@ -292,13 +331,13 @@ img{
 
 body{
 	background: #b0c4de;
+	font-family: 'Arimo', sans-serif;
+	color: black;
 }
 
 a{
-	color: white;
+	color: black;
 	text-decoration: none;
-	font-family: 'Arimo', sans-serif;
-	font-size: 1em;
 }
 
 }
@@ -340,10 +379,18 @@ a{
 	width: 100%;
 }
 
+.homeLink{
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	padding: 5%;
+}
+
+h1{
+	font-size: 5em;
+}
+
 p{
 	font-size: 1em;
-	font-family: 'Arimo', sans-serif;
-	color: white;
 }
 
 img{
@@ -355,13 +402,13 @@ img{
 
 body{
 	background: #b0c4de;
+	font-family: 'Arimo', sans-serif;
+	color: black;
 }
 
 a{
-	color: white;
+	color: black;
 	text-decoration: none;
-	font-family: 'Arimo', sans-serif;
-	font-size: 1em;
 }
 
 }
@@ -403,10 +450,18 @@ a{
 	width: 100%;
 }
 
+.homeLink{
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	padding: 5%;
+}
+
+h1{
+	font-size: 5em;
+}
+
 p{
 	font-size: 1em;
-	font-family: 'Arimo', sans-serif;
-	color: white;
 }
 
 img{
@@ -416,13 +471,13 @@ img{
 
 body{
 	background: #003F87;
+	font-family: 'Arimo', sans-serif;
+	color: black;
 }
 
 a{
-	color: white;
+	color: black;
 	text-decoration: none;
-	font-family: 'Arimo', sans-serif;
-	font-size: 1em;
 }
 
 }
