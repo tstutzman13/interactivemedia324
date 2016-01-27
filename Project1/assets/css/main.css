@@ -26,6 +26,10 @@
 	padding: 2%;
 }
 
+.abcdefg{
+	margin-top: 200px;
+}
+
 .menu{
 
 	position: absolute;
@@ -96,6 +100,9 @@ a:hover{
 	padding: 2%;
 }
 
+.abcdefg{
+	margin-top: 200px;
+}
 
 .menu{
 
@@ -168,6 +175,9 @@ a:hover{
 	padding: 2%;
 }
 
+.abcdefg{
+	margin-top: 180px;
+}
 
 .menu{
 
@@ -249,6 +259,9 @@ a:hover{
 	padding: 2%;
 }
 
+.abcdefg{
+	margin-top: 150px;
+}
 
 .menu{
 
@@ -305,6 +318,10 @@ a:hover{
 	filter: grayscale(1); /* Firefox */
 	-webkit-filter: grayscale(1); /* Chrome, Safari*/
 
+}
+
+.abcdefg{
+	margin-top: 120px;
 }
 
 .homeImg{
@@ -385,6 +402,9 @@ a:hover{
 	padding: 2%;
 }
 
+.abcdefg{
+	margin-top: 90px;
+}
 
 .menu{
 
@@ -466,6 +486,9 @@ a:hover{
 	padding: 2%;
 }
 
+.abcdefg{
+	margin-top: 90px;
+}
 
 .menu{
 
