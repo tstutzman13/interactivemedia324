@@ -1,0 +1,13 @@
+body{
+	font-family: Times, Baskerville, serif;
+	font-size: 70px; 
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.words{
+	margin-top: 20%;
+}
