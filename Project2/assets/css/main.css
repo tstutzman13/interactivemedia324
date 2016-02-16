@@ -1,0 +1,35 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+
+#left {
+  height: 100px;
+  width: 40%;
+  
+  background-color: green;
+  display: inline-block;
+
+  font-size: 200%;
+
+}
+
+#or{
+
+display: inline-block;
+}
+
+#down{
+  margin-top: 10%;
+}
+
+#right {
+  height: 100px;
+  width: 40%;
+
+  background-color: yellow;
+  display: inline-block;
+ 
+  font-size: 200%;
+ 
+}

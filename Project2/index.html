@@ -2,18 +2,28 @@
 <html>
 	<head>
 		<title> Would Your Rather College Eddition</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	</head>
 
 	<body>
 		<center>
-  			<div class="blue">Would You Rather</div>
+  			<div>
+  				<img height = "500px" width = "900px" src="assets/images/header.PNG">
+  			</div>
 
- 		 	<div class="yellow"></div>
+  			<div id = "down">
+	 		 	<div onclick = "rightFunction()" id="left">
+	 		 		<p id="leftFunction">write a 10 page research paper in two days</p>
+	 		 	</div>
 
-  			<div class="green">OR</div>
+	  			<div  id="or">
+	  				<img height = "120px" width = "180px" src="assets/images/or.PNG">
+	  			</div>
 
-  			<div class="red"> </div>
-
+	  			<div onclick = "leftFunction()" id="right"> 
+	  				<p id="rightFunction">eat top ramen for 100 days</p>
+	  			</div>
+	  		</div>
 		</center>
 
 	<!--SCRIPT AND CLOSING TAGS BELOW THIS POINT -->
@@ -24,36 +34,25 @@
 	</body>
 </html>
 
-<style type="text/css">
+<script type="text/javascript">
 
-body{
-	font-family: Baskerville, serif;
-	font-size: 120px;
-	color: black;
-}
 
-.blue {
-	margin-top: 20%;
-}
+	function leftFunction() {
+    	var x = Math.floor((Math.random() * rathers.length));
+    	document.getElementById("leftFunction").innerHTML = rathers[x];
 
-.yellow {
-  background-color: yellow;
-  height: 100px;
-  width: 300px;
-  display: inline-block;
-  margin-right: 10px;
-}
+	}
 
-.green {
-display: inline-block;
-}
+	function rightFunction() {
+    	var x = Math.floor((Math.random() * rathers.length));
+    	document.getElementById("rightFunction").innerHTML = rathers[x];
 
-.red {
-  background-color: red;
-  height: 100px;
-  width: 300px;
-  display: inline-block;
-  margin-right: 10px;
-}
+	}
 
-</style>
+	var rathers = [
+    	"only eat top ramen for 100 days",
+    	"write a 10 page research paper in two days",
+    	"code a 15 page website in three days",
+  	]
+
+</script>
