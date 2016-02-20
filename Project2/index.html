@@ -7,23 +7,21 @@
 
 	<body>
 		<center>
-  			<div>
-  				<img height = "500px" width = "900px" src="assets/images/header.PNG">
-  			</div>
+			<div>
+	  			<img id="header" src="assets/images/header.PNG">
 
-  			<div id = "down">
-	 		 	<div onclick = "rightFunction()" id="left">
-	 		 		<p id="leftFunction">write a 10 page research paper in two days</p>
-	 		 	</div>
-
-	  			<div  id="or">
-	  				<img height = "120px" width = "180px" src="assets/images/or.PNG">
-	  			</div>
-
-	  			<div onclick = "leftFunction()" id="right"> 
-	  				<p id="rightFunction">eat top ramen for 100 days</p>
-	  			</div>
-	  		</div>
+	  			<div id = "down">
+		 		 	<div onclick = "rightFunction()" id="left">
+		 		 		<p id="leftFunction">write a 10 page research paper in two days</p>
+		 		 	</div>
+		 			<div id="location">
+		  				<img id= "or" src="assets/images/or.PNG">
+		  			</div>
+		  			<div onclick = "leftFunction()" id="right"> 
+		  				<p id="rightFunction">eat top ramen for 100 days</p>
+		  			</div>
+		  		</div>
+		  	</div>
 		</center>
 
 	<!--SCRIPT AND CLOSING TAGS BELOW THIS POINT -->
@@ -34,25 +32,3 @@
 	</body>
 </html>
 
-<script type="text/javascript">
-
-
-	function leftFunction() {
-    	var x = Math.floor((Math.random() * rathers.length));
-    	document.getElementById("leftFunction").innerHTML = rathers[x];
-
-	}
-
-	function rightFunction() {
-    	var x = Math.floor((Math.random() * rathers.length));
-    	document.getElementById("rightFunction").innerHTML = rathers[x];
-
-	}
-
-	var rathers = [
-    	"only eat top ramen for 100 days",
-    	"write a 10 page research paper in two days",
-    	"code a 15 page website in three days",
-  	]
-
-</script>

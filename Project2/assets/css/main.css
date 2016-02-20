@@ -5,31 +5,66 @@ body{
 
 #left {
   height: 100px;
-  width: 40%;
+  width: 30%;
   
-  background-color: green;
+ 
+
   display: inline-block;
 
-  font-size: 200%;
+  font-size: 27px;
+  margin-top: auto;
 
 }
 
 #or{
 
-display: inline-block;
+height: 53px ; 
+width: 95px ;
+
+
+
+}
+
+#location{
+  display: inline-block;
+
+  height: 100px;
+  width: 7%;
+
+  
+  margin-top: auto;
+}
+
+#header{
+  height: 400px;
+  width: 800px;
 }
 
 #down{
   margin-top: 10%;
+  height: 300px;
+  width: 100%;
 }
 
 #right {
   height: 100px;
-  width: 40%;
+  width: 30%;
 
-  background-color: yellow;
+  
+
   display: inline-block;
+  
  
-  font-size: 200%;
+  font-size: 27px;
+    margin-top: auto;
  
 }
+
+@media screen and (min-width: 480px) {
+
+}
+
+/* Media Queries */
+
+
+
