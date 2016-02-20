@@ -1,0 +1,65 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+
+#left {
+  height: 100px;
+  width: 30%;
+  
+ 
+
+  display: inline-block;
+
+  font-size: 27px;
+  margin-top: auto;
+
+}
+
+#or{
+
+height: 53px ; 
+width: 95px ;
+
+
+
+}
+
+#location{
+  display: inline-block;
+
+  height: 100px;
+  width: 7%;
+
+  
+  margin-top: auto;
+}
+
+#header{
+  height: 400px;
+  width: 800px;
+}
+
+#down{
+  margin-top: 10%;
+  height: 300px;
+  width: 100%;
+}
+
+#right {
+  height: 100px;
+  width: 30%;
+
+  
+
+  display: inline-block;
+  
+ 
+  font-size: 27px;
+    margin-top: auto;
+ 
+}
+
+
+
+
